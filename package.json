@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "main": "expo-router/entry",
+
+  "engines": {
+    "node": "20.x"
+  },
+
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,6 +15,7 @@
     "web": "expo start --web",
     "build:web": "expo export --platform web"
   },
+
   "dependencies": {
     "expo": "~54.0.27",
     "expo-router": "~6.0.17",
@@ -24,6 +30,7 @@
     "expo-linear-gradient": "~15.0.8",
     "expo-status-bar": "~3.0.9"
   },
+
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "typescript": "~5.9.2"
