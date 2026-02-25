@@ -6,38 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-
-    "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.udayraj.herbalplantid"
-    },
-
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.udayraj.herbalplantid"
-    },
 
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
 
-    "plugins": [
-      "expo-router"
-    ],
-
-    "experiments": {
-      "typedRoutes": true
-    }
+    "plugins": ["expo-router"]
   }
 }
-
